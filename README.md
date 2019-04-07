@@ -98,6 +98,13 @@ git status
 
 The message could be anything, but it is best to make it something that describes what you just did.
 
+Ok at this point your changes are on your local branch but won't show up on github because you're local branch isn't tracking a remote
+branch yet. To create a remote branch and have your local branch track it, type:
+
+```
+git push --set-upstream origin new-branch
+```
+
 ### Merging Changes into Master
 Now that you have made and committed your changes, it is time to merge your branch with master. Even though you are not working with anyone else on this repository, it is always good practice to make sure your current branch is completely up to date with master. Imagine if you were working with a team. Someone else has already pushed up changes to master. If that someone else and yourself have changed the same file, it is quite likely that your changes will not be compatible with theirs. To avoid this, you want to merge your changes with theirs to avoid future problems. Checkout back onto master and pull the remote branch down. These commands look like this:
 
