@@ -4,6 +4,10 @@ Version control makes it possible for multiple developers to work on a file at t
 **What is a branch?**  
 Creating your own "branch" is like taking a copy of `master` and renaming it. When you commit, the changes that you make will only exist on that branch. As you work on a GitHub repo, the first branch you are on is the default branch, called `master`. 
 
+
+NEW README TEXT
+
+
 ## Git Basics
 
 Next please fork this repository.
