@@ -1,23 +1,29 @@
-## UTS ProgSoc Git Workshop
+# UTS ProgSoc Git Workshop
+
+Git is a free and open-source version control system.<br>
 Version control makes it possible for multiple developers to work on a file at the same time.
 
-**What is a branch?**  
-Creating your own "branch" is like taking a copy of `master` and renaming it. When you commit, the changes that you make will only exist on that branch. As you work on a GitHub repo, the first branch you are on is the default branch, called `master`. 
+## Getting Setup
+----------------
+In this workshop you will need to:
+- have [git](https://git-scm.com/downloads) installed on your machine.
+- create a [github](https://github.com) account if you don't have one already.
+- have an IDE or code editor you are comfortable with.
 
+Don't worry if you don't have these things done, we will be helping you out during the workshop.
 
-NEW README TEXT
+## Getting Started
+------------------
 
+### Setting up the Repo
 
-## Git Basics
+To get started, fork this repository to create a copy of it in your github account.
 
-Next please fork this repository.
+<img src="./img/fork.png" width="400">
 
-![fork button on github](./img/fork.png)
-
-### Getting Started
 The next step is to clone the forked version of this repository. On the main page of the repo, copy the url shown here:
 
-![where to copy url on github](./img/git-clone.png)
+<img src="./img/git-clone.png" width="400">
 
 Then use the command in your terminal:
 
@@ -84,7 +90,7 @@ git status
 
 You will see something like this:
 
-![git status example](./img/git-status.png)
+<img src="./img/git-status.png" width="400">
 
 You will see your changes in red. now we need to add them to the git staging area. Doing this is like telling git to pay attention to these files, and start tracking the changes. To do this write this command:
 
